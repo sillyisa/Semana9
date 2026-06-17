@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre:Isabela Castilla Berrío
+Fecha:16/06/2026
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta:Es un proceso de geastión de riesgos, que analiza los procesos de organización de una empresa o entidad, desde la perspectiva de un posible atacante.
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta:Es un tema de permisos de los usuarios, el cual solo permite que intervenga en solo lo necesario para su participación.
+
+3. ¿Qué significa exposición mínima?
+Respuesta:Es una estrategia que permite minimizar la visibilidad de daatos. Protegiendo los servicios, procesos que se hagan teniendo en cuenta los riesgos en internet.
+
+4. ¿Para qué sirve .gitignore?
+Respuesta: Sirve para ocultar a la vista pública ciertos archivos que contienen información sensible o privada del un usuario o plataforma, para evitar algún robo informatico.
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta:Porque quedaría expuesto públicamente, y dentro de ese archivo puede contener información privada o sensible.
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta:Creedenciales, Tokens, Claves. el puerto.
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta:El archivo .env, .gitignore.
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:/diagnostico, / estado, /api/info.
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta:/diagnostico
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta: muestra ahora un mensaje que dice "La aplicación está disponible"
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta: Muestra el token del bot de telegram
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta: Es sumamente importante, debido a que contienen información privada nuestra. Que de ser expuesta, nos pueden robar nuestra identidad, pueden robar nuestros datos, etc.
