@@ -1,0 +1,45 @@
+BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
+
+Nombre: Isabela Castilla Berrío.
+Fecha: 17/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es continuidad operativa?
+Respuesta: Es cuando manetenemos las funciones y servicios criticos en funcionamiento y en caso de crisis, recuperarlos con rápidad.
+
+2. ¿Qué es PM2?
+Respuesta:Es una herramienta que gestiona procesos, permitiendo que aplicaciones web se ejecuten en segundo plano.
+
+3. ¿Qué comando usé para iniciar la aplicación con PM2?
+Respuesta: npx pm2 start server.js --name app-semana9
+
+4. ¿Qué comando usé para listar procesos?
+Respuesta: npx pm2 list
+
+5. ¿Qué comando usé para detener la aplicación?
+Respuesta:npx pm2 stop app-semana9
+
+6. ¿Qué comando usé para reiniciar la aplicación?
+Respuesta:npx pm2 restart app-semana9
+
+7. ¿Qué comando usé para revisar logs?
+Respuesta:npx pm2 logs app-semana9 --lines 20
+
+8. ¿Qué error simulé?
+Respuesta: La falta del token de telegram.
+
+9. ¿Qué mensaje apareció en logs?
+Respuesta: ERROR_OPERATIVO: REQUIRE_TELEGRAM está activo, pero falta TELEGRAM_BOT_TOKEN.
+SUGERENCIA: Revise el archivo .env sin publicar credenciales.
+
+10. ¿Cuál fue la causa probable del error?
+Respuesta: No se coloco el token del bot, de simulación.
+
+11. ¿Cómo corregí el error?
+Respuesta: Restaurando la variable del token.
+
+12. ¿Qué rutas verifiqué después de corregir?
+Respuesta:/estado, /diagnostico, /fallo-controlado
+
+13. ¿Qué debo evitar al tomar capturas de logs?
+Respuesta:Evitar información sensible, debido a que los logs almacenan esos ratros con cada acción, error y proceso.
