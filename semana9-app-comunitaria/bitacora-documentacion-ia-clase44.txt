@@ -1,0 +1,41 @@
+BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:Isabela Castilla Berrío.
+Fecha:18/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta: Es una serie de pasos ordenados para realizar una tarea del ambito técnologico.
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta: Porque al documentar compartimos conocimiento, para que sea muchas personas las que aseguren la trazabilidad de un proyecto.
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta: Se diferencia en el tipo de entorno. En Codespace en donde programamos pero no es definitivo, en hosting compartido es un entorno en colaboración de muchas personas, el VPS está enfocada en un solo usuario con más control, y el la nube son servicios para los servidores para modificarlo según se necesite.
+
+4. ¿Qué es cPanel?
+Respuesta: Es una herramienta para administar un sitio web, sin la necesidad de contar con tantos comandos.
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta: Contraseñas, tokens, creedenciales, correos de usuarios, telefonos, rutas internas.
+
+6. ¿Qué función cumple .gitignore?
+Respuesta: Cumple con función de ignorar archivos a la vista pública que pueden contener información sensible del usuario.
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta: El .gitkeep crea un archivo vacío dentro de una carpeta vacía para que así no sea ignorada por git.
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:/uploads
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta: Porque contiene información subida por los usuarios que puede contener datos privados o sensibles.
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:Explícame en lenguaje sencillo qué hace este comando: npx pm2 restart app-semana9.
+
+11. ¿Qué información evité compartir con IA?
+Respuesta: el .env, contraseñas, tokens, creedenciales.
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta: si se ignoraba correctamente los archivos que se suponían ignorarse.
