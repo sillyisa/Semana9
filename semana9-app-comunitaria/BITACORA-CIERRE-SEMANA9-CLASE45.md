@@ -26,30 +26,31 @@ Respuesta de /api/info:{"programa":"Capacitación en Democracia y Tecnología","
 ## 3. Seguridad operativa
 
 ¿Qué medidas de seguridad se aplicaron durante la semana?
-Trazabilidad, .gitignore, 
+Trazabilidad, .gitignore, .env
 
 ## 4. Diagnóstico
 
 ¿Qué error simulado se trabajó durante la semana?
-
+error en el código del .env
 ¿Cómo se corrigió?
-
+modificando los permisos.
 ## 5. Documentación
 
 ¿Qué documento explica el procedimiento de despliegue?
-
+PROCEDIMIENTO-DESPLIEGUE-CLASE44.md
 ## 6. Git
 
 ¿Qué aprendí sobre ramas?
-
+Se puede interpretar como formar un nuevo camino que no dañe el proceso del camino principal.
 ¿Qué aprendí sobre stash?
-
+Que sirve para guardar temporalmente cambios cuando no estoy segura de confirmar.
 ¿Qué aprendí sobre merge fast-forward?
-
+Eso significa que la rama principal avanza debido a que no hubo ningún cambio paralelo.
 ¿Qué aprendí sobre merge no-fast-forward?
-
+Cuando se unen los dos cambios y se realiza un commit de integración.
 ¿Qué aprendí sobre conflictos?
-
+Los conflictos no significan fracaso, para solucionarlos se requiere trabajo, conservando aquello que nos úne y para evitarlos repartir tareas que garantizen la seguridad de todos.
 ## 7. Reflexión final
 
 ¿Qué fue lo más importante de la Semana 9?
+Todo lo aprendido fue de gran ayuda, los comandos nuevos ayudaron a registrar la trazabilidad de un proyecto, los archivos .env y .gitigonre nos ayudan a guardar esos datos sensibles del público, en la parte jurdica nos dieron herramientas de gran importancia para instruirnos digitalmente de forma segura.
